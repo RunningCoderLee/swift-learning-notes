@@ -35,7 +35,7 @@ till you come to the end; then stop."
 
 如果你在某行的前面写的空白字符串超出了关闭引号（`"""`）之前的空白字符串，则超出部分将被包含在多行字符串字面量中。
 
-![]('./images/multilineStringWhitespace_2x.png)
+![](./images/multiline-string-whitespace.png)
 
 在上面的例子中，尽管整个多行字符串字面量都是缩进的（源代码缩进），第一行和最后一行没有以空白字符串开始（实际的变量值）。中间一行的缩进用空白字符串（源代码缩进）比关闭引号（`"""`）之前的空白字符串多，所以，它的行首将有4个空格。
 
@@ -273,7 +273,7 @@ let newString = String(beginning)
 * `Substring` 可以重用原 `String` 的内存空间，或者另一个 `Substring` 的内存空间（`String` 也有同样的优化，但如果两个 `String` 共享内存的话，它们就会相等）
 
 
-![]('./images/stringSubstring_2x.png')
+![](./images/string-substring.png)
 
 ## 字符串比较
 

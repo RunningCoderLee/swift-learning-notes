@@ -5,7 +5,7 @@
 * 字典（Dictionary）无序的键值对的集合
 
 
-![]('./images/CollectionTypes_intro_2x.png')
+![](./images/collectionTypes-intro.png)
 
 ## 可变性
 
@@ -227,7 +227,7 @@ for genre in favoriteGenres.sorted() {
 
 ### 基本操作
 
-![]('./images/setVennDiagram_2x.png)
+![](./images/set-venn-diagram.png)
 
 * 使用 `intersection(_:)` 方法根据两个集合的交集创建一个新的集合。
 * 使用 `symmetricDifference(_:)` 方法根据两个集合不相交的值创建一个新的集合。
@@ -253,7 +253,7 @@ oddDigits.symmetricDifference(singleDigitPrimeNumbers).sorted()
 
 下面的插图描述了三个集合 `a`、`b` 和 `c`，以及通过重叠区域表述集合间共享的元素。集合 `a` 是集合 `b` 的父集合，因为 `a` 包含了 `b` 中所有的元素。相反的，集合 `b` 是集合 `a` 的子集合，因为属于 `b` 的元素也被 `a` 包含。集合 `b` 和集合 `c` 是不相交的，因为它们之间没有共同的元素。
 
-![]('./images/setEulerDiagram_2x.png)
+![](./images/set-euler-diagram.png)
 
 
 
